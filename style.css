@@ -5,14 +5,12 @@ body{
     color: #fff;
     font-family: 'Roboto', sans-serif;;
 }
-.container {
-    background-color: #1F2937;
-}
 .header {
     display: flex;
     flex-direction: column;
-    width: 60vw;
     margin: 0 auto;
+    background-color: #1F2937;
+    padding: 0 100px;
     padding-bottom: 50px;
 }
 .nav{
@@ -48,9 +46,74 @@ body{
 .banner .text {
     margin-bottom: 10px;
 }
-.banner button {
+button {
     border-radius: 5px;
     background-color: #3882F6;
     border: none;
     padding: 16px 32px;
+}
+.section-1, .section-3 {
+    background-color: #fff;
+    color: #000;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.info {
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 40px;
+    flex: 1;
+    width:40vw;
+}
+.card {
+    width: 150px;
+}
+.card img {
+    width:100%;
+}
+
+.section-2 {
+    background-color: #E5E7EB;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20vw;
+    height: 30vh;
+    color: #1F2937;
+    font-weight: lighter;
+}
+.section-2 blockquote {
+    font-size: 36px;
+    font-style: italic;
+}
+.section-2 figcaption {
+    align-self: flex-end;
+    font-size: 30px;
+}
+
+.section-3 {
+    padding: 80px;
+    justify-content: center;
+}
+.call-to-action {
+    background-color: #3882F6;
+    padding: 20px 80px;
+    color: #fff;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border-radius: 5px;
+}
+.call-to-action h4, .call-to-action p {
+    margin: 0;
+}
+.call-to-action button {
+    color: #fff;
+    border: 1px solid #fff;
 }
