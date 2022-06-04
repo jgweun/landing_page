@@ -1,3 +1,6 @@
+html {
+    background-color: #777777;
+}
 body{
     height: 100vh;
     width: 80vw;
@@ -35,16 +38,18 @@ body{
     justify-content: space-between;
     align-items: center;
     gap: 40px;
+    flex-grow: 1;
 }
-.banner .content {
-    align-self: flex-start;
-}
+
 .banner h1 {
     font-size: 3em;
     margin-bottom: 10px;
 }
 .banner .text {
     margin-bottom: 10px;
+}
+.banner img {
+    width: 100%;
 }
 button {
     border-radius: 5px;
@@ -116,4 +121,11 @@ button {
 .call-to-action button {
     color: #fff;
     border: 1px solid #fff;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 20px;
+    text-align: center;
+    font-weight: 200;
 }
